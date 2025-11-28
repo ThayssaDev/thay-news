@@ -1,0 +1,87 @@
+h2{
+    color: blue;
+    font-size: 25px;
+}
+
+body > header {
+    background-color: black;
+    padding: 0;
+    font-size: 28px;
+}
+
+/* CONTAINER do header: título à esquerda, menu à direita */
+header .container {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+div nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.articles img {
+    height: 180px;
+    padding: 20px;}
+
+.articles {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.articles article {
+    width: 30%;
+}
+
+.container{
+    width: 1366px;
+    margin:0 auto;
+}
+
+#sports{
+    background-color: rgba(0,0,255,0.1);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.articles article a { 
+    text-decoration: none;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+#technology{
+    background-color: rgb(229, 225, 225);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#economy{
+    background-color: rgb(246, 246, 126);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#entertainment{
+    background-color: rgb(217, 145, 44);
+    padding: 10px;
+    margin-top: 20px;
+}
