@@ -1,5 +1,5 @@
 h2{
-    color: blue;
+    color: #1E3A8A;
     font-size: 25px;
 }
 
@@ -56,7 +56,7 @@ header nav a:hover {
 }
 
 #sports{
-    background-color: rgba(0,0,255,0.1);
+    background-color: #EAF2FF;
     padding: 10px;
     margin-top: 20px;
 }
@@ -69,19 +69,23 @@ header nav a:hover {
 }
 
 #technology{
-    background-color: rgb(229, 225, 225);
+    background-color: #EEF1F6;
     padding: 10px;
     margin-top: 20px;
 }
 
 #economy{
-    background-color: rgb(246, 246, 126);
+    background-color: #FFF6D6;
     padding: 10px;
     margin-top: 20px;
 }
 
 #entertainment{
-    background-color: rgb(217, 145, 44);
+    background-color: #FDEBDD;
     padding: 10px;
     margin-top: 20px;
 }
+#sports h2{ color: #1D4ED8; }
+#economy h2{ color: #A16207; }
+#entertainment h2{ color: #C2410C; }
+#technology h2{ color: #334155; }
